@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header.header1 {
+    background-color: #007042;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    text-align: right;
+  }
+  
+  header.header2 {
+    background-color: #fff;
+    color: #666;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  header.header3 {
+    background-color: #014023;
+    color: #fff;
+    padding: 15px;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 300px;
+    margin-right: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 60px;
+    padding: 0;
+  }
+  
+  header.header1 nav ul li {
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  header.header2 nav ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  header.header3 nav ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  header.header1 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  header.header2 nav ul li a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  
+  
+  header.header3 nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero1 {
+    background-image: url('cse.ewha.ac.kr.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero2 {
+    background-image: url('ewha_cse_새소식및공지사항.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 381px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero3 {
+    background-image: url('ewha_cse_기자재대여카톡채널 및 기타등등.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 298px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .feature-image {
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    height: 30px;
+  }
+  
+  
+  footer {
+    background-color: #007042;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
